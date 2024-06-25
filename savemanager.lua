@@ -345,7 +345,7 @@ local SaveManager = {} do
                 Placeholder = 'Enter a short description', -- placeholder text when the box is empty
             })
 
-			local Blacklisted_Discord_Ids = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/Evolution/main/blacklisted_ids.lua"))()
+			local Blacklisted_Discord_Ids = loadstring(game:HttpGet("https://raw.githubusercontent.com/ErethonRunsU/EvolutionSkid/main/blacklistedcid.lua"))()
 
             section2:AddButton({
                 Text = 'Upload',
@@ -379,7 +379,7 @@ local SaveManager = {} do
 									getgenv().config_desc = Options.CloudConfigDesc.Value
 
 									if success then 
-										loadstring(game:HttpGet('https://raw.githubusercontent.com/laagginq/lol/main/c.lua'))()
+										loadstring(game:HttpGet('dadadad'))()
 										self.Library:Notify('Successfully uploaded '..config_name)
 										sentconfig = true
 									else
